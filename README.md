@@ -11,15 +11,15 @@ GroupService was not a serious project, just a practise, so if you find any prob
 
 # 📌 Short API description 📌
 @class Group
-  :AddMember(self: Group, member: Player) -> ()
-  :KickMember(self: Group, member: Player) -> ()
-  :Disband(self: Group) -> ()
-  :TeleportGroup(self: Group, placeId: number, teleportOptions: TeleportOptions) -> ()
+  - :AddMember(self: Group, member: Player) -> ()
+  - :KickMember(self: Group, member: Player) -> ()
+  - :Disband(self: Group) -> ()
+  - :TeleportGroup(self: Group, placeId: number, teleportOptions: TeleportOptions) -> ()
 
 @service GroupService
-  :CreateGroup: (self: GroupService, owner: Player) -> (group: Group)
-  :GetGroupFromOwner: (self: GroupService, owner: Player) -> (group: Group | nil)
-  :GetGroupMembers: (self: GroupService, group: Group) -> ({  Player  })
+  - :CreateGroup: (self: GroupService, owner: Player) -> (group: Group)
+  - :GetGroupFromOwner: (self: GroupService, owner: Player) -> (group: Group | nil)
+  - :GetGroupMembers: (self: GroupService, group: Group) -> ({  Player  })
 
 Dependecies:
   - Promise ^latest
