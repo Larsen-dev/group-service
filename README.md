@@ -1,15 +1,15 @@
-# group-service
+# 🧑‍🤝‍🧑 group-service 🧑‍🤝‍🧑
 
-# COPYRIGHT
-# PLEASE INSERT THIS BEFORE MODIFICATION
+# ©️ COPYRIGHT ©️
+PLEASE INSERT THIS IF YOU WILL MODIFICATE STANDART API.
 
-# DOCS
-GroupService is a Knit based service writted by Larsen-dev or @Larsen264.
+GroupService is a Knit based service writted by Larsen-dev.
+All modifications are welcomed.
+
+# Important
 GroupService was not a serious project, just a practise, so if you find any problems please connect me.
 
-==============================================
-Short API description:
-
+# 📌 Short API description 📌
 @class Group
   :AddMember(self: Group, member: Player) -> ()
   :KickMember(self: Group, member: Player) -> ()
@@ -25,4 +25,3 @@ Dependecies:
   - Promise ^latest
   - Knit ^latest
   - Roblox Studio API
-==============================================
