@@ -1,4 +1,5 @@
 # 🧑‍🤝‍🧑 group-service 🧑‍🤝‍🧑
+Two examples of code: .lua and .rbxm formats.
 
 # ©️ COPYRIGHT ©️
 PLEASE INSERT THIS IF YOU WILL MODIFICATE STANDART API.
